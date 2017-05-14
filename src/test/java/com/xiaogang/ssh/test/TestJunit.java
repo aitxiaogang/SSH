@@ -24,6 +24,8 @@ public class TestJunit {
 		System.out.println(userInfoService);
 		UserInfo userInfo = new UserInfo();
 		userInfo.setUsername("xiaogang");
+		userInfo.setAge(27);
+		userInfo.setPassword("673185413");
 		Serializable serializable = userInfoService.addUserInfo(userInfo);
 		System.out.println(serializable);
 	}
